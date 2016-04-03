@@ -9,6 +9,7 @@ sudo mkdir -p "$INSTALL_BIN"
 sudo cp convert.sh "$INSTALL_DIR"
 sudo cp -r templates "$INSTALL_DIR"
 sudo cp -r formulas "$INSTALL_DIR"
+sudo cp -r scripts "$INSTALL_DIR"
 
 sudo unlink "${INSTALL_BIN}/tbsw-texeqconv"
 
